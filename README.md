@@ -8,9 +8,9 @@ Currently focused on **Advanced MERN skills + DSA** to become an industry-ready 
 ---
 
 ## ⚡ About Me
-- 🌍 Based in **Noida, India**  
-- 💼 Looking for roles as a **Full Stack / MERN Developer (₹6–8 LPA)**  
-- 🛠️ Completed **15+ projects** including major apps like **Wanderlust**  
+- 🌍 Based in **Delhi, India**  
+- 💼 Looking for roles as a **Full Stack / MERN Developer**  
+- 🛠️ Completed **15+ projects** including major apps   
 - 📚 Currently learning **System Design + Advanced MongoDB + DevOps**  
 - ✨ Love collaborating on open-source projects & tech communities  
 
