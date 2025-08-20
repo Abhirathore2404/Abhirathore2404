@@ -2,22 +2,27 @@ name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs daily at midnight UTC
-  workflow_dispatch:
+    - cron: '0 0 * * *'   # runs daily (optional)
+  workflow_dispatch:      # allows manual run from Actions tab
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate contribution graphs (light + dark)
+        # use the marketplace action (v3) which supports multiple outputs
+        uses: Platane/snk@v3
         with:
           github_user_name: Abhirathore2404
           outputs: |
-            ./output/pacman-contribution-graph.svg
-            ./output/pacman-contribution-graph-dark.svg
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+            output/pacman-contribution-graph.svg
+            output/pacman-contribution-graph-dark.svg?palette=github-dark
+
+      - name: Deploy output folder to 'output' branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: output
