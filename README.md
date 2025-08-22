@@ -38,9 +38,11 @@ A Full-Stack Developer specializing in the MERN stack to build high-performance,
   <img src="https://img.shields.io/badge/EJS-000000?style=for-the-badge&logo=ejs&logoColor=white"/> 
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Material--UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/> 
 <!--   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>  -->
-  
 </p>
+
 
 ## ⚙️ Backend  
 <p align="left"> 
