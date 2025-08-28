@@ -115,7 +115,7 @@ A Full-Stack Developer specializing in the MERN stack to build high-performance,
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhirathore2404&show_icons=true&theme=tokyonight&rank_icon=github" alt="Abhishek's GitHub stats">
+<!--   <img src="https://github-readme-stats.vercel.app/api?username=Abhirathore2404&show_icons=true&theme=tokyonight&rank_icon=github" alt="Abhishek's GitHub stats"> -->
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhirathore2404&layout=compact&theme=tokyonight" alt="Top Languages">
 </p>
